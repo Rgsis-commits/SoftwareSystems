@@ -1,0 +1,4 @@
+001 => Rishav Chandel, 12400
+101 => Aman TA, 20000
+1239391 => Ajay Gidd, 27000
+06969 => Suraj Subedi, 21000
