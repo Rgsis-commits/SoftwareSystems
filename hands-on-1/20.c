@@ -1,6 +1,6 @@
 #include <unistd.h> // Import for `nice` system call
 #include <stdio.h>  // Import for `printf` function
-#include <stdlib.h> // `atoi` conversion from string to int
+#include <stdlib.h>:
 
 void main()
 {
