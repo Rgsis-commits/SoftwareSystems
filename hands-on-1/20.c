@@ -1,6 +1,6 @@
 #include <unistd.h> // Import for `nice` system call
 #include <stdio.h>  // Import for `printf` function
-#include <stdlib.h>:
+#include <stdlib.h>
 
 void main()
 {
