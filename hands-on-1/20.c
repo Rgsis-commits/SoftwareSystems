@@ -1,25 +1,14 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <sys/resource.h>
-#include <sched.h>
+#include <unistd.h> // Import for `nice` system call
+#include <stdio.h>  // Import for `printf` function
+#include <stdlib.h> // `atoi` conversion from string to int
 
-int main(){
-	int pid = getpid();
-	int beforeset = getpriority(PRIO_PROCESS,pid);
-	printf("The existing priority of process is %d.\n",beforeset);
-	int setter;
-	printf("Enter the priority you want the process to have:"); 
-	scanf("%d",&setter);
-	if(setter<-20 || setter>19){
-		printf("The valid range is from -20 to 19.\n");
-		return 0;
-	}
-	int set = setpriority(PRIO_PROCESS, pid, setter);
-	if(set == -1){
-		perror("Error in setting priority");
-		return 0;
-	}
-	int afterset = getpriority(PRIO_PROCESS, pid);
-	printf("The priority of process after setting is %d.\n",afterset);
-	return 0;
+void main()
+{
+    int priority, newp;
+    priority = nice(0); // Get the priorty by adding 0 to current priorty
+    printf("Current priority: %d\n", priority);
+    printf("Enter the new value which you want to add to current priority: ");
+    scanf("%d",&newp);
+    priority = nice(newp); // Adds `newp` to the current priority
+    printf("New priority: %d\n", priority);
 }
