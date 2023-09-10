@@ -1,3 +1,10 @@
+/*
+============================================================================
+Name : 7.c
+Author : Rishav Chandel
+Description : Write a program to copy file1 into file2 ($cp file1 file2).
+============================================================================
+*/
 #include<fcntl.h>
 #include<stdio.h>
 #include<sys/types.h>
