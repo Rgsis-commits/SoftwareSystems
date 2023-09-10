@@ -1,7 +1,7 @@
 /*
 ============================================================================
-Name : 27.c
-Author : Suraj Subedi
+Name : 3.c
+Author : Rishav Chandel
 Description : Write a program to create a file and print the file descriptor value. Use creat ( ) system call
 ============================================================================
 */
