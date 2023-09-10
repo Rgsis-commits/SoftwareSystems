@@ -1,3 +1,11 @@
+/*
+============================================================================
+Name : 1b.c
+Author : Rishav Chandel
+Description : Create the following types of a files using system call
+ b. hardlink (link system call)
+============================================================================
+*/
 #include<stdio.h>
 #include<unistd.h>
 
