@@ -1,3 +1,10 @@
+/*
+============================================================================
+Name : 20.c
+Author : Rishav Chandel
+Description : Find out the priority of your running program. Modify the priority with nice command.
+============================================================================
+*/
 #include <unistd.h> // Import for `nice` system call
 #include <stdio.h>  // Import for `printf` function
 #include <stdlib.h> // `atoi` conversion from string to int
