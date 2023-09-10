@@ -1,3 +1,11 @@
+/*
+============================================================================
+Name : 16a.c
+Author : Rishav Chandel
+Description : Write a program to perform mandatory locking.
+ a. Implement write lock
+============================================================================
+*/
 #include <stdio.h>
 #include <unistd.h>    // Imports for `fcntl`
 #include <fcntl.h>     // Imports for `fcntl`, `open`
