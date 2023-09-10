@@ -1,3 +1,12 @@
+/*
+============================================================================
+Name : 11a.c
+Author : Rishav Chandel
+Description : Write a program to open a file, duplicate the file descriptor and append the file with both the
+descriptors and check whether the file is updated properly or not.
+ a. use dup
+============================================================================
+*/
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
