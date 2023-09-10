@@ -1,3 +1,10 @@
+/*
+============================================================================
+Name : 24.c
+Author : Rishav Chandel
+Description : Write a program to create an orphan process.
+============================================================================
+*/
 #include<stdio.h>
 #include<unistd.h>
 #include<sys/wait.h>
