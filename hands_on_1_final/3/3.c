@@ -1,3 +1,10 @@
+/*
+============================================================================
+Name : 27.c
+Author : Suraj Subedi
+Description : Write a program to create a file and print the file descriptor value. Use creat ( ) system call
+============================================================================
+*/
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
