@@ -1,3 +1,10 @@
+/*
+============================================================================
+Name : 15.c
+Author : Rishav Chandel
+Description : Write a program to display the environmental variable of the user (use environ). 
+============================================================================
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
