@@ -1,3 +1,10 @@
+/*
+============================================================================
+Name : 6.c
+Author : Rishav Chandel
+Description : Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
+============================================================================
+*/
 #include <unistd.h> // To include the read and write function calls
 #include <stdio.h> //  To use the stdin and stdout functions
 
