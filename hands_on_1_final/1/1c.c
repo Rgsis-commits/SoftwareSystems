@@ -1,3 +1,11 @@
+/*
+============================================================================
+Name : 1c.c
+Author : Rishav Chandel
+Description : Create the following types of a files using system call
+c.  FIFO (mkfifo Library Function or mknod system call)
+============================================================================
+*/
 #include<fcntl.h>
 #include<sys/types.h>
 #include<sys/stat.h>
