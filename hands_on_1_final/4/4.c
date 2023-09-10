@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 3.c
+Name : 4.c
 Author : Rishav Chandel
 Description : Write a program to open an existing file with read write mode. Try O_EXCL flag also. 
 ============================================================================
