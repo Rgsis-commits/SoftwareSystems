@@ -1,3 +1,11 @@
+/*
+============================================================================
+Name : 5.c
+Author : Rishav Chandel
+Description : Write a program to create five new files with infinite loop. Execute the program in the background
+and check the file descriptor table at /proc/pid/fd.
+============================================================================
+*/
 #include <sys/types.h> // Import for `creat` system call
 #include <sys/stat.h>  // Import for `creat` system call
 #include <fcntl.h>     // Import for `creat` system call
