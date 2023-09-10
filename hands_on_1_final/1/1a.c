@@ -1,3 +1,11 @@
+/*
+============================================================================
+Name : 1a.c
+Author : Rishav Chandel
+Description : Create the following types of a files using system call
+ a. soft link (symlink system call)
+============================================================================
+*/
 #include<stdio.h>
 #include<unistd.h>
 
