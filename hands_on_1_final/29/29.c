@@ -1,3 +1,11 @@
+/*
+============================================================================
+Name : 29.c
+Author : Rishav Chandel
+Description : Write a program to get scheduling policy and modify the scheduling policy (SCHED_FIFO,
+SCHED_RR).
+============================================================================
+*/
 #include<stdio.h>
 #include<unistd.h>
 #include<stdlib.h>
