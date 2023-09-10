@@ -1,3 +1,11 @@
+/*
+============================================================================
+Name : 17a.c
+Author : Rishav Chandel
+Description : Write a program to simulate online ticket reservation. Implement write lock
+Write a program to open a file, store a ticket number and exit.
+============================================================================
+*/
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
