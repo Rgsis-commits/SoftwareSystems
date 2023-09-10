@@ -1,3 +1,10 @@
+/*
+============================================================================
+Name : 3.c
+Author : Rishav Chandel
+Description : Write a program to open an existing file with read write mode. Try O_EXCL flag also. 
+============================================================================
+*/
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
