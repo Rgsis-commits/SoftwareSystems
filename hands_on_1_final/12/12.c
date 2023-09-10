@@ -1,4 +1,10 @@
-// Question: Write a program to find out the opening mode of a file. Use `fcntl`
+/*
+============================================================================
+Name : 12.c
+Author : Rishav Chandel
+Description : Write a program to find out the opening mode of a file. Use fcntl.
+============================================================================
+*/
 
 #include <sys/types.h> // Import for `open` system call
 #include <sys/stat.h>  // Import for `open` system call
