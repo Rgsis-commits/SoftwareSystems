@@ -1,3 +1,10 @@
+/*
+============================================================================
+Name : 28.c
+Author : Rishav Chandel
+Description : Write a program to get maximum and minimum real time priority
+============================================================================
+*/
 #include<sched.h>
 #include<stdio.h>
 
