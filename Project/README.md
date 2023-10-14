@@ -68,8 +68,8 @@ This project primarily focuses on providing a seamless and secure login experien
 
 **Default Credentials:**
 
-- Admin Login ID: admin@university.edu
-- Admin Password: admin123
+- Admin Login ID: Rishav
+- Admin Password: R88S
 
 
 
