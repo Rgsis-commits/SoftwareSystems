@@ -29,10 +29,8 @@ This project primarily focuses on providing a seamless and secure login experien
     - Utilizing a relational database for efficient retrieval.
 
 6. **User Profile Management:**
-    - Allowing users to update their profiles (e.g., contact information, passwords).
+    - Allowing users to update their profiles (e.g., passwords).
 
-7. **Password Recovery:**
-    - Providing a mechanism for users to reset their passwords.
 
 8. **Session Management:**
     - Implementing session timeouts for security.
@@ -73,10 +71,7 @@ This project primarily focuses on providing a seamless and secure login experien
 - Admin Login ID: admin@university.edu
 - Admin Password: admin123
 
-**Student/Faculty Login ID Format:**
 
-- Students: `OULS-{studentID}`
-- Faculty: `OULS-{facultyID}`
 
 **Notable Results:**
 
@@ -86,4 +81,3 @@ This project primarily focuses on providing a seamless and secure login experien
 
 ---
 
-Feel free to modify any details or add specific functionalities based on your project requirements. Let me know if you need any further assistance!
